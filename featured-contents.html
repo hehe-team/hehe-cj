@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Featured Contents</title>
+
+  <!-- 초기화 css -->
+  <link rel="stylesheet" href="./CSS/reset.css">
+  <!-- 웹폰트 cdn -->
+
+  <!-- css 웹폰트 -->
+  <link rel="stylesheet" href="./CSS/CJ_font.css">
+  <!-- 내가 작성한 css -->
+  <link rel="stylesheet" href="./CSS/fc.css">
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <div class="fix_menu">
+        <ul class="fix_link">
+          <li>TVING <img src="./images/arrow2.png" alt="arrow"></li>
+          <li>STUDIO DRAGON <img src="./images/arrow2.png" alt="arrow"></li>
+          <li>CJ ONSTYLE <img src="./images/arrow2.png" alt="arrow"></li>
+          <li>KO <img src="./images/arrow3.png" alt="arrow"></li>
+        </ul>
+      </div>
+      <div class="top_header">
+        <div class="logo_img"><img src="./images/cj_enm_logo.svg" alt="logo">
+        </div>
+
+        <ul class="gnb_itmes">
+          <li><a href="#">#1stLook</a></li>
+          <li><!-- a 링크 넣으면 체크박스 안눌림 -->
+            <input type="checkbox" id="check-a" name="check-a">
+            <label for="check-a">
+              About Us <img src="./images/arrow3.png" alt="arrow">
+            </label>
+            <div class="menu-drop drop-about">
+              <h2>About Us</h2>
+              <div class="drop-column">
+                <h3>Our Story</h3>
+                <ul>
+                  <li><a href="#">Who We Are</a></li>
+                  <li><a href="#">Visionary</a></li>
+                  <li><a href="#">Culture</a></li>
+                  <li><a href="#">History</a></li>
+                </ul>
+              </div>
+              <div class="drop-column">
+                <h3>Business</h3>
+                <ul class="drop-col-a">
+                  <li><a href="#">TV Show</a></li>
+                  <li><a href="#">Film</a></li>
+                  <li><a href="#">Music</a></li>
+                  <li><a href="#">Digital Business</a></li>
+                  <li><a href="#">Performing Arts</a></li>
+                  <li><a href="#">Animation</a></li>
+                </ul>
+              </div>
+          </li>
+          <li><a href="#">Featured Contents</a></li>
+          <li><a href="#">Newsroom</a></li>
+          <li>
+            <input type="checkbox" id="check-s" name="check-s">
+            <label for="check-s">
+              Support <img src="./images/arrow3.png" alt="arrow"></label>
+            <div class="menu-drop drop-spt">
+              <h2>Support</h2>
+              <ul id="drop-spt">
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="colorBg"></div>
+    <div class="container">
+      <section class="titleMain">
+        <h1>Featured Contents</h1>
+      </section>
+      <section class="category">
+        <!-- <div class="bgColor"></div> -->
+        <div class="inCategory">
+          <div class="titleSub">
+            <div class="titleSubH" OnClick="location.href ='#'">
+              <h2 id="SubTop">드라마</h2>
+              <img src="./images/icon/Arrow1.png" alt="right-arrow">
+            </div>
+          </div>
+          <div class="contents">
+            <div class="list">
+              <article>
+                <img src="./images/drama_guardian.jpg" alt="도깨비">
+                <h3>도깨비</h3>
+                <p>판타지,로맨스</p>
+              </article>
+              <article>
+                <img src="./images/drama_reply1988.jpg" alt="응답하라 1988">
+                <h3>응답하라 1998</h3>
+                <p>가족,로맨스,드라마</p>
+              </article>
+              <article>
+                <img src="./images/drama_crashlandingonyou.jpg" alt="사랑의 불시착">
+                <h3>사랑의 불시착</h3>
+                <p>로맨스,드라마</p>
+              </article>
+              <article>
+                <img src="./images/drama_mrsunshine.jpg" alt="미스터 선샤인">
+                <h3>미스터 선샤인</h3>
+                <p>시대극,로맨스</p>
+              </article>
+              <article>
+                <img src="./images/drama_hospitalplaylist2.jpg" alt="슬기로운 의사생활 시즌2">
+                <h3>슬기로운 의사생활 시즌2</h3>
+                <p>메디컬,코미디,드라마</p>
+              </article>
+              <article>
+                <img src="./images/drama_yumi-sepo.jpg" alt="유미의 세포들 시즌2">
+                <h3>유미의 세포들 시즌2</h3>
+                <p>로맨스</p>
+              </article>
+              <article>
+                <img src="./images/drama_hospitalplaylist.jpg" alt="슬기로운 의사생활">
+                <h3>슬기로운 의사생활</h3>
+                <p>메디컬,코미디,드라마</p>
+              </article>
+              <article>
+                <img src="./images/drama_hoteldelluna.jpg" alt="호텔 델루나">
+                <h3>호텔 델루나</h3>
+                <p>판타지,로맨스,드라마</p>
+              </article>
+              <article>
+                <img src="./images/drama_memoriesofthealhambra.jpg" alt="알함브라 궁전의 추억">
+                <h3>알함브라 궁전의 추억</h3>
+                <p>로맨스,드라마</p>
+              </article>
+              <article>
+                <img src="./images/icon/Arrow1.png" alt="철인황후">
+                <h3>철인황후</h3>
+                <p>시대극,로맨스,코미디</p>
+              </article>
+            </div>
+            <div class="listBtn">
+              <button class="btnLeft"></button>
+              <button class="btnRight"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="category">
+        <div class="inCategory">
+          <div class="titleSub">
+            <div class="titleSubH">
+              <h2>예능</h2>
+              <img src="./images/icon/Arrow1.png" alt="right-arrow">
+            </div>
+          </div>
+          <div class="contents">
+            <div class="list">
+              <article>
+                <img src="./images/show_younskitchen2.jpg" alt="윤식당 2">
+                <h3>윤식당 2</h3>
+                <p>리얼리티,푸드,여행</p>
+              </article>
+              <article>
+                <img src="./images/show_younskitchen.jpg" alt="윤식당">
+                <h3>윤식당</h3>
+                <p>리얼리티,푸드,여행</p>
+              </article>
+              <article>
+                <img src="./images/show_threemealsadayfish5.jpg" alt="삼시세끼 어촌편 5">
+                <h3>삼시세끼 어촌편 5</h3>
+                <p>리얼리티,푸드,여행</p>
+              </article>
+              <article>
+                <img src="./images/show_newjourneytothewest6.jpg" alt="신서유기6">
+                <h3>신서유기6</h3>
+                <p>리얼리티</p>
+              </article>
+              <article>
+                <img src="./images/show_threemealsadayfish3.jpg" alt="삼시세끼 어촌편 3">
+                <h3>삼시세끼 어촌편 3</h3>
+                <p>리얼리티,여행</p>
+              </article>
+              <article>
+                <img src="./images/show_SeoulCheck-in.jpg" alt="서울체크인">
+                <h3>서울체크인</h3>
+                <p>리얼리티</p>
+              </article>
+              <article>
+                <img src="./images/show_shinbhauntedhouse.jpg" alt="신비아파트">
+                <h3>신비아파트: 고스트볼 더블X</h3>
+                <p>애니메이션</p>
+              </article>
+              <article>
+                <img src="./images/show_threemealsadaygochangvillage.jpg" alt="삼시세끼 고창편">
+                <h3>삼시세끼 고창편</h3>
+                <p>리얼리티,푸드</p>
+              </article>
+              <article>
+                <img src="./images/show_threemealsadayseasideranch.jpg" alt="삼시세끼 바다목장편">
+                <h3>삼시세끼 바다목장편</h3>
+                <p>리얼리티</p>
+              </article>
+              <article>
+                <img src="./images/show_kangskitchen.jpg" alt="신서유기 외전 강식당">
+                <h3>신서유기 외전 강식당</h3>
+                <p>푸드</p>
+              </article>
+            </div>
+            <div class="listBtn">
+              <button class="btnLeft"></button>
+              <button class="btnRight"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="category">
+        <div class="inCategory">
+          <div class="titleSub">
+            <div class="titleSubH">
+              <h2>영화</h2>
+              <img src="./images/icon/Arrow1.png" alt="right-arrow">
+            </div>
+          </div>
+          <div class="contents">
+            <div class="list">
+              <article>
+                <img src="./images/movie_decisiontoleave.jpg" alt="헤어질 결심">
+                <h3>헤어질 결심</h3>
+                <p></p>
+              </article>
+              <article>
+                <img src="./images/movie_broker.jpg" alt="브로커">
+                <h3>브로커</h3>
+                <!-- <p></p> -->
+              </article>
+              <article>
+                <img src="./images/movie_extremejob.jpg" alt="극한직업">
+                <h3>극한직업</h3>
+                <p>코미디</p>
+              </article>
+              <article>
+                <img src="./images/movie_veteran.jpg" alt="베테랑">
+                <h3>베테랑</h3>
+                <p>액션,드라마</p>
+              </article>
+              <article>
+                <img src="./images/movie_parasite.jpg" alt="기생충">
+                <h3>기생충</h3>
+                <p>드라마</p>
+              </article>
+              <article>
+                <img src="./images/movie_thespygonenorth.jpg" alt="공작">
+                <h3>공작</h3>
+                <p>드라마</p>
+              </article>
+              <article>
+                <img src="./images/movie_thehandmaiden.jpg" alt="아가씨">
+                <h3>아가씨</h3>
+                <p>미스터리/스릴러,드라마</p>
+              </article>
+              <article>
+                <img src="./images/movie_themerciless.jpg" alt="불한당">
+                <h3>불한당: 나쁜 놈들의 세상</h3>
+                <p>범죄,액션,드라마</p>
+              </article>
+            </div>
+            <div class="listBtn">
+              <button class="btnLeft"></button>
+              <button class="btnRight"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="category">
+        <div class="inCategory">
+          <div class="titleSub">
+            <div class="titleSubH">
+              <h2>공연</h2>
+              <img src="./images/icon/Arrow1.png" alt="right-arrow">
+            </div>
+          </div>
+          <div class="contents">
+            <div class="list">
+              <article>
+                <img src="./images/Featured_moulinrouge.jpg" alt="물랑루즈">
+                <h3>물랑루즈!</h3>
+                <p></p>
+              </article>
+              <article>
+                <img src="./images/Featured_kinky.jpg" alt="킹키부츠">
+                <h3>킹키부츠</h3>
+                <p></p>
+              </article>
+              <article>
+                <img src="./images/Featured_beetlejuice.jpg" alt="비틀쥬스">
+                <h3>비틀쥬스</h3>
+                <p></p>
+              </article>
+              <article>
+                <img src="./images/Featured_42ndStreet.jpg" alt="브로드웨이">
+                <h3>브로드웨이 42번가</h3>
+                <p></p>
+              </article>
+              <article>
+                <img src="./images/Featured_maybeahappyending.jpg" alt="어쩌면 해피엔딩">
+                <h3>어쩌면 해피엔딩</h3>
+                <p></p>
+              </article>
+              <article>
+                <img src="./images/Featured_bttf.jpg" alt="백 투 더 퓨처">
+                <h3>백 투 더 퓨처</h3>
+                <p></p>
+              </article>
+              <article>
+                <img src="./images/Featured_bigfish.jpg" alt="빅 피쉬">
+                <h3>빅 피쉬</h3>
+                <p></p>
+              </article>
+              <article>
+                <img src="./images/Featured_gwangwhamunlovesong.jpg" alt="광화문 연가">
+                <h3>광화문 연가</h3>
+                <p></p>
+              </article>
+              <article>
+                <img src="./images/Featured_mjthemusical.jpg" alt="MJ THE MUSICAL">
+                <h3>MJ THE MUSICAL</h3>
+                <p></p>
+              </article>
+            </div>
+            <div class="listBtn">
+              <button class="btnLeft"></button>
+              <button class="btnRight"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer_inner">
+      <div class="location">
+          <ul class="home">
+              <li><span>HOME</span></li>
+              <li>
+                  <img src="./images/arrow1.png" alt="home">
+              </li>
+              <li>
+                  <a href="#">Newsroom</a>
+              </li>
+          </ul>
+      </div>
+      <div class="sitemap">
+          <dl class="sitemap_list">
+              <dt>
+                  <span>
+                      <a href="#">#1stLook</a>
+                  </span>
+              </dt>
+          </dl>
+          <dl class="sitemap_list">
+              <dt><span>About Us</span></dt>
+              <dd>
+                  <span><a href="">Who We Are</a></span>
+              </dd>
+              <dd>
+                  <span><a href="">Visionary</a></span>
+              </dd>
+              <dd>
+                  <span><a href="">Culture</a></span>
+              </dd>
+              <dd>
+                  <span><a href="">History</a></span>
+              </dd>
+          </dl>
+          <dl class="sitemap_list">
+              <dt><span><a href="">Business</a></span></dt>
+              <dd>
+                  <span><a href="">TV Shows</a></span>
+              </dd>
+              <dd>
+                  <span><a href="">Film</a></span>
+              </dd>
+              <dd>
+                  <span><a href="">Music</a></span>
+              </dd>
+              <dd>
+                  <span><a href="">Digital Business</a></span>
+              </dd>
+              <dd>
+                  <span><a href="">Performing Arts</a></span>
+              </dd>
+              <dd>
+                  <span><a href="">Animation</a></span>
+              </dd>
+              <dd>
+                  <span><a href="">Ad Sales</a></span>
+              </dd>
+          </dl>
+          <dl class="sitemap_list">
+              <dt><span><a href="">Values</a></span></dt>
+              <dd>
+                  <span><a href="">ESG</a></span>
+              </dd>
+              <dd>
+                  <span><a href="">윤리경영</a></span>
+              </dd>
+          </dl>
+          <dl class="sitemap_list">
+              <dt><span><a href="">Investors</a></span></dt>
+              <dd>
+                  <span><a href="">주요 정보</a></span>
+              </dd>
+              <dd>
+                  <span><a href="">IR 활동 및 자료</a></span>
+              </dd>
+              <dd>
+                  <span><a href="">공시</a></span>
+              </dd>
+              <dd>
+                  <span><a href="">공고</a></span>
+              </dd>
+              <dd>
+                  <span><a href="">주식 및 주주정보</a></span>
+              </dd>
+              <dd>
+                  <span><a href="">재무정보</a></span>
+              </dd>
+              <dd>
+                  <span><a href="">기업지배구조</a></span>
+              </dd>
+          </dl>
+          <p class="sitemap_list">Careers
+          </p>
+
+      </div>
+      <div class="footer_area">
+          <ul class="footlink_list">
+              <li>문의하기</li>
+              <li>온라인 제보</li>
+              <li>시청자위원회</li>
+              <li>법적고지</li>
+              <li>영상정보처리기기운영/관리방침</li>
+              <li>이메일무단수집거부</li>
+              <li>개인정보처리방침</li>
+          </ul>
+          <ul class="sns_list">
+              <li>youtube</li>
+              <li>facebook</li>
+              <li>instagram</li>
+          </ul>
+          <div class="footer_box">
+              <ul class="foot_list">
+                  <li>(주)씨제이이엔엠</li>
+                  <li>대표이사 : 강호성, 윤상현</li>
+              </ul>
+              <address>
+                  주소 : (03926) 서울시 마포구 상암산로 66
+              </address>
+              <ul class="foot_list">
+                  <li>사업자 등록번호 : 106-81-51510</li>
+                  <li>개인정보 보호책임자 : 강봉관</li>
+              </ul>
+          </div>
+          <div class="copyright">
+              <span>© CJ ENM. All Rights Reserved.</span> 
+          </div>
+      </div>
+  </div>
+  </footer>
+</body>
+</html>
