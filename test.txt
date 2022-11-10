@@ -1,0 +1,5 @@
+git hub -> new organization
+
+1. 팀 repository 생성 후 팀원 초대, 권한 설정
+2. 하나의 repository 생성
+3. 팀원별 브랜치 생성. 작업후 main에 merge

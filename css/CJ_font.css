@@ -1,0 +1,78 @@
+@charset "uta-8";
+/* 
+@import 다른 문서나 외부 문서를 가져올 때 사용.
+@import url('경로');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Pacifico&display=swap');
+@import url('./fonts.web.css');
+
+웹폰트: 
+사용자의 컴퓨터에 설지되지 않은 글꼴을 서버에 올려놓은 후 해당 사이트에 접속하는 컴퓨터에 그 폰트가 다운로드 되어 보이게 함.
+
+@font-face {
+    font-family: '사용자 지정 이름';
+    src: local('로컬 서체 이름으로 내가 설정한 이름 X'),
+    로컬 선언을 하는 걍우 사용자의 시스템에 서체가 설치되어 있으면 리소스를 요청하지 않음
+    url('경로') format('파일포맷');
+    
+	font-display: swap;
+        auto; 브라우저 기본값
+        block; FOIT 방식. 웹폰트가 로딩되지 않으면 텍스트를 렌더링 하지 않음.
+        로딩 완료 후 글자 보임
+        "swap;" 로딩이 되는 중에 기본 서체가 보여지고, 완료되면 웹폰트 적용
+                로딩 여부와 상관없이 항상 글자 보임
+    }
+*/
+
+/* CircularStd */
+@font-face {
+    font-family: 'CircularStd';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+    /* woff2 먼저 woff 나중 (새로운 것일수록 먼저, 안전할 수록 나중 작성) */
+    src: url('./font/CircularStd-Bold.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: 'CircularStd';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+    src: url('./font/CircularStd-Book.woff2') format('woff2')
+}
+/* CJONLYONENEW */
+@font-face {
+    font-family: 'CJONLYONENEW';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+    src: url('./font/CJONLYONENEWtitleBold.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: 'CJONLYONENEW';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+    src: url('./font/CJONLYONENEWbodyRegular.woff2') format('woff2')
+}
+
+/* iconfont */
+
+@font-face {
+    font-family: 'iconfont';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+    src: url('./font/iconfont.woff2') format('woff2')
+}
+
+/* SeoulHangangEB */
+
+@font-face {
+    font-family: 'SeoulHangangEB';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+    src: url('./font/SeoulHangangEB.woff') format('woff')
+}
