@@ -477,7 +477,9 @@ p.sitemap_list a {
     
 }
 p.sitemap_list img{
+    margin-left: 5px;
     position: absolute;
+    
 }
 .sitemap_list dd {
     padding: 6px 0;
@@ -499,6 +501,7 @@ p.sitemap_list img{
 .footlink_list{
     height: 16px
 }
+
 .footer_area .footlink_list li:nth-child(-n+6):after{
     content: '';
     display: inline-block;
@@ -566,7 +569,7 @@ p.sitemap_list img{
 
 .foot_list{
     position: relative;
-    color:rgba(255, 255, 255, 0.87);
+    color:rgba(255, 255, 255, 0.62);
 }
 
 .foot_list p {
@@ -583,3 +586,8 @@ p.sitemap_list img{
     margin: 4px;
     margin-left: 6px;
 }   
+.col_1 > li > a {
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.87);
+    
+}
