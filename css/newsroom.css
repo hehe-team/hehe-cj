@@ -135,6 +135,10 @@ header::after {
 
 }
 
+.fix_link .material-symbols-outlined{
+    font-size: 12px;
+    vertical-align: top;
+}
 .fix_link > li {
     display: block;
     float: left;
