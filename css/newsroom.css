@@ -40,7 +40,7 @@ html, body{
     font-size: 24px;
     font-weight: 700;
 }
-.txtbox .date .family_site{
+.txtbox .family_site{
     font-family: "CircularStd", "CJONLYONENEW";
     font-size: 15px;
     font-weight: 700;
@@ -55,7 +55,7 @@ html, body{
 .location, .sitemap_list dd {
     font-family: "CJONLYONENEW";
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .sitemap_list dt, p.sitemap_list {
@@ -250,6 +250,9 @@ header::after {
 }
 
 .search_box input {
+    font-family: 'CJONLYONENEW';
+    font-size: 15px;
+    font-weight: 400;
     display: inline-block;
     height: 42px;
     border: 0;
@@ -345,6 +348,9 @@ header::after {
 }
 
 .date {
+    font-family: "CircularStd", "CJONLYONENEW";
+    font-size: 15px;
+    font-weight: 700;
     position: absolute;
     bottom: 26px;
     left: 32px;
@@ -560,6 +566,7 @@ p.sitemap_list img{
 
 .foot_list{
     position: relative;
+    color:rgba(255, 255, 255, 0.87);
 }
 
 .foot_list p {
