@@ -99,6 +99,11 @@ header::after {
     color: #fff;
 }
 
+.fix_link .material-symbols-outlined{
+    font-size: 12px;
+    vertical-align: top;
+}
+
 .fix_link::after {
     content: "";
     display: block;
