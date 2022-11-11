@@ -30,7 +30,7 @@
     font-display: swap;
     font-weight: 700;
     /* woff2 먼저 woff 나중 (새로운 것일수록 먼저, 안전할 수록 나중 작성) */
-    src: url('./font/CircularStd-Bold.woff2') format('woff2')
+    src: url('../font/CircularStd-Bold.woff2') format('woff2')
 }
 
 @font-face {
@@ -38,15 +38,16 @@
     font-style: normal;
     font-display: swap;
     font-weight: 500;
-    src: url('./font/CircularStd-Book.woff2') format('woff2')
+    src: url('../font/CircularStd-Book.woff2') format('woff2')
 }
+
 /* CJONLYONENEW */
 @font-face {
     font-family: 'CJONLYONENEW';
     font-style: normal;
     font-display: swap;
     font-weight: 700;
-    src: url('./font/CJONLYONENEWtitleBold.woff2') format('woff2')
+    src: url('../font/CJONLYONENEWtitleBold.woff2') format('woff2')
 }
 
 @font-face {
@@ -54,7 +55,7 @@
     font-style: normal;
     font-display: swap;
     font-weight: 500;
-    src: url('./font/CJONLYONENEWbodyRegular.woff2') format('woff2')
+    src: url('../font/CJONLYONENEWbodyRegular.woff2') format('woff2')
 }
 
 /* iconfont */
@@ -64,7 +65,7 @@
     font-style: normal;
     font-display: swap;
     font-weight: 500;
-    src: url('./font/iconfont.woff2') format('woff2')
+    src: url('../font/iconfont.woff2') format('woff2')
 }
 
 /* SeoulHangangEB */
@@ -74,5 +75,5 @@
     font-style: normal;
     font-display: swap;
     font-weight: 500;
-    src: url('./font/SeoulHangangEB.woff') format('woff')
+    src: url('../font/SeoulHangangEB.woff') format('woff')
 }
