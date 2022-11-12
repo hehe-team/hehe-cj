@@ -3,13 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Featured Contents</title>
+  <title>Featured Contents - 전체 콘텐츠 | CJ ENM</title>
 
-  <!-- 초기화 css -->
-  <link rel="stylesheet" href="./CSS/reset.css">
-  <!-- 웹폰트 cdn -->
-
-  <!-- css 웹폰트 -->
+  <!-- reset -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/site.webmanifest">
+  <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <!-- icon:fontawesome -->
+  <script src="https://kit.fontawesome.com/1421974912.js" crossorigin="anonymous"></script>
+  <!-- icon:google -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <!-- font -->
   <link rel="stylesheet" href="./CSS/CJ_font.css">
   <!-- 내가 작성한 css -->
   <link rel="stylesheet" href="./CSS/fc.css">
@@ -19,14 +29,15 @@
     <div class="inner">
       <div class="fix_menu">
         <ul class="fix_link">
-          <li>TVING <img src="./images/arrow2.png" alt="arrow"></li>
-          <li>STUDIO DRAGON <img src="./images/arrow2.png" alt="arrow"></li>
-          <li>CJ ONSTYLE <img src="./images/arrow2.png" alt="arrow"></li>
-          <li>KO <img src="./images/arrow3.png" alt="arrow"></li>
-        </ul>
+          <li><a href="https://www.tving.com/onboarding">TVING<span class="material-symbols-outlined icon-link">north_east</span></a></li>
+          <li><a href="http://www.studiodragon.net/front/kr/main/main;jsessionid=0AA0ABD945141260BF504E1185ADBA53/">STUDIO DRAGON<span class="material-symbols-outlined icon-link">north_east</span></a></li>
+          <li><a href="https://company.cjonstyle.com/">CJ ONSTYLE<span class="material-symbols-outlined icon-link">north_east</span></a></li>
+          <li><span class="material-symbols-outlined icon-link">language</span>KO<span class="material-symbols-outlined icon-link">keyboard_arrow_down</span></li>
+      </ul>
       </div>
       <div class="top_header">
-        <div class="logo_img"><img src="./images/cj_enm_logo.svg" alt="logo">
+        <div class="logo_img">
+          <a href="./index.html"><img src="./images/cj_enm_logo.svg" alt="logo"></a>
         </div>
 
         <ul class="gnb_itmes">
@@ -34,7 +45,7 @@
           <li><!-- a 링크 넣으면 체크박스 안눌림 -->
             <input type="checkbox" id="check-a" name="check-a">
             <label for="check-a">
-              About Us <img src="./images/arrow3.png" alt="arrow">
+              About Us<span class="material-symbols-outlined icon-menu">keyboard_arrow_down</span>
             </label>
             <div class="menu-drop drop-about">
               <h2>About Us</h2>
@@ -60,12 +71,12 @@
               </div>
             </div>
           </li>
-          <li><a href="#">Featured Contents</a></li>
-          <li><a href="#">Newsroom</a></li>
+          <li><a href="./featured-contents.html">Featured Contents</a></li>
+          <li><a href="./newroom.html">Newsroom</a></li>
           <li>
             <input type="checkbox" id="check-s" name="check-s">
             <label for="check-s">
-              Support <img src="./images/arrow3.png" alt="arrow"></label>
+              Support<span class="material-symbols-outlined icon-menu">keyboard_arrow_down</span></label>
             <div class="menu-drop drop-spt">
               <h2>Support</h2>
               <ul id="drop-spt">
@@ -92,7 +103,7 @@
           <div class="titleSub">
             <div class="titleSubH" OnClick="location.href ='#'">
               <h2 id="SubTop">드라마</h2>
-              <img src="./images/icon/Arrow1.png" alt="right-arrow">
+              <span class="material-symbols-outlined">arrow_forward</span>
             </div>
           </div>
           <div class="contents">
@@ -143,7 +154,7 @@
                 <p>로맨스,드라마</p>
               </article>
               <article>
-                <img src="./images/icon/Arrow1.png" alt="철인황후">
+                <img src="./images/drama_mrqueen.jpg" alt="철인황후">
                 <h3>철인황후</h3>
                 <p>시대극,로맨스,코미디</p>
               </article>
@@ -161,7 +172,7 @@
           <div class="titleSub">
             <div class="titleSubH">
               <h2>예능</h2>
-              <img src="./images/icon/Arrow1.png" alt="right-arrow">
+              <span class="material-symbols-outlined">arrow_forward</span>
             </div>
           </div>
           <div class="contents">
@@ -230,7 +241,7 @@
           <div class="titleSub">
             <div class="titleSubH">
               <h2>영화</h2>
-              <img src="./images/icon/Arrow1.png" alt="right-arrow">
+              <span class="material-symbols-outlined">arrow_forward</span>
             </div>
           </div>
           <div class="contents">
@@ -289,7 +300,7 @@
           <div class="titleSub">
             <div class="titleSubH">
               <h2>공연</h2>
-              <img src="./images/icon/Arrow1.png" alt="right-arrow">
+              <span class="material-symbols-outlined">arrow_forward</span>
             </div>
           </div>
           <div class="contents">
@@ -356,9 +367,10 @@
           <ul class="home">
               <li><span>HOME</span></li>
               <li>
-                  <img src="./images/arrow1.png" alt="home">
+                  <img src="./icon/arrow1.png" alt="home">
               </li>
               <li>
+                  <!-- 페이지에 맞게 수정 -->
                   <a href="#">Newsroom</a>
               </li>
           </ul>
@@ -443,7 +455,11 @@
                   <span><a href="">기업지배구조</a></span>
               </dd>
           </dl>
-          <p class="sitemap_list">Careers
+          <p class="sitemap_list">
+              <a href="https://recruit.cj.net/recruit/ko/main/main/main.fo">
+                  Careers 
+                  <img src="./icon/arrows.png" alt="atz">
+              </a>
           </p>
 
       </div>
@@ -455,31 +471,38 @@
               <li>법적고지</li>
               <li>영상정보처리기기운영/관리방침</li>
               <li>이메일무단수집거부</li>
-              <li>개인정보처리방침</li>
+              <li><b>개인정보처리방침</b></li>
           </ul>
           <ul class="sns_list">
-              <li>youtube</li>
-              <li>facebook</li>
-              <li>instagram</li>
+              <li><a href="https://www.youtube.com/user/CJENMMEDIA"><i class="fa-brands fa-youtube"></i></a></li>
+              <li><a href="https://www.facebook.com/CJENMofficial"><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="https://www.instagram.com/cjenm.official/"><i class="fa-brands fa-instagram"></i></a></li>
           </ul>
+          <div class="family_site">
+              <a href="#">
+                  <span>Family Site</span>
+                  <i class="fa-regular fa-plus"></i></a>
+          </div>
           <div class="footer_box">
-              <ul class="foot_list">
-                  <li>(주)씨제이이엔엠</li>
-                  <li>대표이사 : 강호성, 윤상현</li>
-              </ul>
-              <address>
-                  주소 : (03926) 서울시 마포구 상암산로 66
-              </address>
-              <ul class="foot_list">
-                  <li>사업자 등록번호 : 106-81-51510</li>
-                  <li>개인정보 보호책임자 : 강봉관</li>
-              </ul>
+              <div class="foot_list">
+                  <span>(주)씨제이이엔엠</span>
+                  <p>대표이사 : 강호성, 윤상현</p>
+              </div>
+              <!-- <address> -->
+              <div class="foot_list">
+                  <p>주소 : (03926) 서울시 마포구 상암산로 66</p>
+              </div>
+              <!-- </address> -->
+              <div class="foot_list">
+                  <span>사업자 등록번호 : 106-81-51510</span>
+                  <p>개인정보 보호책임자 : 강봉관</p>
+              </div>
           </div>
           <div class="copyright">
               <span>© CJ ENM. All Rights Reserved.</span> 
           </div>
       </div>
-  </div>
+    </div>
   </footer>
 </body>
 </html>
