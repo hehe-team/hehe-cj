@@ -1,0 +1,611 @@
+@charset "UTF-8";
+.clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+
+body{
+    background-color: #121212; color: white;
+    margin: 0;
+    max-width: 1440px;
+    overflow-x: hidden;
+}
+
+
+.body{
+    margin: 0 240px;
+    padding: 0 48px;
+    width: 1344px;
+}
+section.head{
+    margin: 0 240px;
+    padding: 80px 48px;
+    width: 1344px;
+    overflow: hidden;
+}
+section.head h1{
+    margin: 0 0;
+    font-size: 60px;
+    float: left;    
+    font-family: 'CircularStd-Bold';
+
+}
+section.head span {
+    font-size: 17px;
+    text-align: left;
+    float: right;
+    font-family: 'CJ ONLYONE NEW title-bold';
+}
+section.head span.headtxt1{
+    margin-left: 40px;
+    color: #757575;
+}
+section.head ul {
+    list-style: none;
+    padding: 0;
+}
+section.head span.headtxt2 a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+section.body{
+    padding-top: 40px;
+    padding-bottom: 200px;
+}
+section.body h2{
+    text-align: center;
+    margin: 0;
+    font-family: 'libre-bodoni';
+    font-weight: 400;
+    font-style: italic;
+    font-size: 60px;
+}
+ul.Editor{
+    display: table;
+    margin: 0 auto;
+    list-style: none;
+
+}
+
+ul.Editor li{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+}
+ul.Editor li dd{
+    margin: 0 10px;
+    font-size: 15px;
+}
+ul.Editor li .dd1{
+    font-family: 'CircularStd-Bold';
+}
+ul.Editor li .dd2{
+    font-family: 'CJ ONLYONE NEW title-body';
+}
+ul.Editor span{
+    line-height: 74px;
+}
+ul.Editor .photo img{
+    vertical-align: middle;
+}
+ul.icon {
+    
+    list-style: none;
+    padding-bottom: 32px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    
+}
+ul.icon i{
+    font-size: 22px;
+}
+ul.icon li {
+    margin: 0;
+    vertical-align: middle;
+    padding-left: 40px;
+    
+}
+.header{
+    padding-bottom: 32px;
+    border-bottom: 1px solid white;
+    margin-bottom: 30px;
+}
+.body .diamond {
+    text-align: center;
+    padding: 14px 0 40px;
+    margin: 0 auto;
+}
+p.point_tit{
+    margin: 0;
+    text-align: center;
+    padding: 0 12px;
+    font-size: 22px;
+    font-family: 'SeoulHangangEB';
+    font-style: italic;
+    line-height: 40px;
+    letter-spacing: -0.04em;
+    margin-bottom: 50px;
+}
+.cont_txt{
+    font-size:17px;
+    font-family: 'CircularStd-Bold','CJ ONLYONE NEW title-bold';
+    line-height: 28px;
+    letter-spacing: 0.015em;
+    margin-bottom: 50px;
+}
+.cont_txt2 .jaeyun{
+    float: left;
+    margin: 0 50px 50px 0;
+}
+
+.cont_txt2 .txtbox{
+    padding:0 160px 32px;
+    font-size: 17px;
+    font-family: 'CJ ONLYONE NEW title-body' ;
+    letter-spacing: 0.015em;
+    font-weight: 400;
+    box-sizing: border-box;
+    line-height: 28px;
+}
+.cont_txt2 span{
+    font-weight: bold;
+    font-family: 'CircularStd-Bold';
+}
+.cont_txt2 .txt2_tb7, .cont_txt2 .txt2_tb17 {
+    clear: both;
+}
+.cont_txt2 .jaehwan {
+    float: right;
+    margin: 0px 0px 50px 50px;
+}
+.stage {
+    padding-bottom: 100px;
+    border-bottom: 1px solid #fff;
+}
+.layoutcard{
+    padding-top: 100px;
+
+}
+
+.layoutcard ul{
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.layoutcard .swiper-slide {
+    margin: 0 auto;
+    padding: 0 12px;
+}
+.layoutcard .rem {
+    padding-left: 0px;
+}
+.layoutcard .item_wrap {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.layoutcard a {
+    text-decoration: none;
+    color: white;
+    font-family: 'CircularStd-Bold';
+}
+.layoutcard .tt1 {
+    padding: 20px 0 8px 0;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.015em;
+    border-bottom: 1px solid #fff;
+}
+.layoutcard .tt2 {
+    padding: 24px 0;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 0.015em;
+    font-family: 'CJ ONLYONE NEW title-bold';
+}
+.layoutcard .txt-box {
+    border-bottom: #fff 1px solid;
+    height: 180px;
+}
+.layoutcard .icon {
+    width: 24px; height: 24px;
+    color: white;
+    margin-top: 20px;
+}
+/* header, footer */
+ul {
+    list-style: none;
+}
+.clearFix {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.fix_link li, .footlink_list, .footer_box, .copyright {
+    font-family: "CJONLYONENEW";
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.gnb_itmes {
+    font-family: "CircularStd";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* header */
+header {
+    width: 100vw;
+    background-color: #121212;
+    color: #fff;
+
+    top: 0;
+    left: 0;
+    right: 0;
+} 
+
+header::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 48px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.1);
+    
+}
+
+.inner {
+    width: 1440px; height: 120px;
+    padding: 48px 48px 0 ;
+    margin: 0 240px;
+    
+    top: 0;
+    box-sizing: border-box;
+}
+
+.inner .fix_menu {
+    position: absolute;
+    top: 13px; right: 48px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.fix_link {
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+    margin: 0 240px;
+    padding: 0 48px;
+
+}
+
+.fix_link > li {
+    display: block;
+    float: left;
+    margin: 0 0 0 18px;
+}
+
+.fix_link::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.top_header {
+    display: inline-block;
+    background-color: #121212;
+    padding: 0;
+    
+}
+
+.top_header .logo_img {
+    display: inline-block;
+    height: 72px; width: 84px;
+    box-sizing: border-box;
+    margin-right:16px;
+    padding: 8px 0 16px;
+    float: left;
+}
+
+.gnb_itmes {
+    padding: 24px 0;
+    margin: 0;
+    float: left;
+    box-sizing: border-box;
+}
+
+.gnb_itmes > li {
+    position: relative;
+    float: left;
+    margin-left: 32px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+/* footer */
+footer {
+    position: relative;
+    background-color: #000000;
+    color: #fff;
+  }
+  
+  .footer_inner{
+    width: 100%;
+    max-width: 1344px;
+    height: 761px;
+    margin: 0 auto;
+    padding: 0 48px;
+  }
+  
+  .location{
+    width: 1344px;
+    height: 56px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    /* position: relative; */
+    
+  }
+  .home {
+    margin: 0;
+    display: block;
+  }
+  
+  .location .home > li {
+    line-height: 24px;
+    margin: 0;
+    float: left;
+  
+  }
+  
+  .location .home li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .location .home li a:hover {
+    text-decoration: underline;
+  
+  }
+  
+  .location .home img {
+    margin: 0 4px;
+    line-height: 24px;
+  }
+  
+  .sitemap {
+    width: 100%; height: 452px;
+    box-sizing: border-box;
+    padding: 48px 0 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  
+  }
+  .sitemap {
+    position: relative;
+  }
+  .sitemap_list{
+    float: left;
+    width: 20%;
+    padding: 0 16px;
+    box-sizing: border-box;
+    color: #efefef;
+  }
+  
+  .sitemap_list dt {
+    padding: 14px 0;
+    color: #efefef;
+  }
+  
+  .sitemap_list span a {
+    /* display: inline-block; */
+    line-height: 24px;
+    color: #efefef;
+    text-decoration: none;
+  }
+  
+  .sitemap_list dd {
+    padding: 6px 0;
+  }
+  p.sitemap_list {
+    position: absolute;
+    bottom: 56px;
+  }
+  
+  p.sitemap_list a {
+    text-decoration: none;
+    color: #ffffff;
+    
+  }
+  p.sitemap_list img{
+    margin-left: 5px;
+    position: absolute;
+  }
+  .sitemap_list dd {
+    padding: 6px 0;
+  }
+  
+  
+  .footer_area{
+    padding: 40px 0 80px;
+    /* height: 251px; */
+    height: 131px;
+    position: relative;
+  }
+  
+  .footer_area .footlink_list li{
+    padding-right: 12px;
+    float: left;
+  }
+  .footlink_list{
+    height: 16px
+  }
+  .footer_area .footlink_list li:nth-child(-n+6):after{
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    vertical-align: middle;
+    background-color: rgba(255, 255, 255, 0.62);
+    margin-left: 13px;   
+  }
+  
+  .footer_area .sns_list{
+    position: absolute;
+    top: 40px;
+    right: 0;
+  }
+  
+  .sns_list li {
+    float: left;
+    margin: 0 0 0 30px;
+    font-size: 20px;
+  }
+  .sns_list li a{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  
+  .family_site {
+    position: absolute;
+    right: 0; top:88px;
+    transition: .7s;
+  }
+  
+  .family_site a {
+    text-decoration: none;
+    color: #efefef;
+  }
+  
+  .family_site i { 
+    width: 16px; height: 16px; 
+    line-height: 16px;
+    text-align:center; 
+    margin-left: 2px;
+  
+    transition: all 0.35s ease-in-out;
+  }
+  .family_site :hover {
+    transform: rotate(45deg);
+  } 
+  
+  .footer_box {
+    margin-top: 24px;
+    color:rgba(255, 255, 255, 0.62);
+  }
+  .foot_list, address {
+    margin-top: 4px;
+  }
+  
+  .copyright{
+    margin-top: 16px;
+    color:rgba(255, 255, 255, 0.62);
+  }
+  
+  .foot_list{
+    position: relative;
+  }
+  
+  .foot_list p {
+    display: inline;
+  }
+  
+  .foot_list span:after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 8px;
+    vertical-align: middle;
+    background-color: rgba(255, 255, 255, 0.62);
+    margin: 4px;
+    margin-left: 6px;
+  }   
+  
+  
+  .footlink_list, .footer_box, .copyright {
+    font-family: "CJONLYONENEW";
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .fix_link li {
+    font-family: "CJONLYONENEW";
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .gnb_itmes {
+    font-family: "CircularStd";
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .top_title h1 {
+    font-family: "CircularStd", "CJONLYONENEW";
+    font-size: 60px;
+    font-weight: 700;
+  }
+  
+  .con_title h2 {
+    font-family: "CircularStd", "CJONLYONENEW";
+    font-size: 46px;
+    font-weight: 700;
+  }
+  
+  .txtbox {
+    font-family: "CircularStd", "CJONLYONENEW";
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .txtbox .date .family_site{
+    font-family: "CircularStd", "CJONLYONENEW";
+    font-size: 15px;
+    font-weight: 700;
+  }
+  
+  .tag_link {
+    font-family: 'CJONLYONENEW';
+    font-size: 17px;
+    font-weight: 400;
+  }
+  
+  .location, .sitemap_list dd {
+    font-family: "CJONLYONENEW";
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .sitemap_list dt, p.sitemap_list {
+    font-family: "CJONLYONENEW";
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .family_site{
+    font-family: "CircularStd", "CJONLYONENEW";
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .clearFix {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  .wrapper {
+    margin: 0 auto;
+    width: 100%;  
+    height: 1650px;
+  }
