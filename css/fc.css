@@ -44,7 +44,9 @@ main .colorBg {
     padding: 80px 0;
     background-color: #121212;
 }
-
+.container .category:nth-child(5) {
+  padding-bottom: 200px;
+}
 .container .category .inCategory {
     padding-top: 72px;
 }   
@@ -382,7 +384,7 @@ footer {
 
 .footer_inner{
   width: 100%;
-  max-width: 1440px;
+  max-width: 1344px;
   height: 761px;
   margin: 0 auto;
   padding: 0 48px;
@@ -468,6 +470,7 @@ p.sitemap_list a {
   
 }
 p.sitemap_list img{
+  margin-left: 5px;
   position: absolute;
 }
 .sitemap_list dd {
