@@ -217,7 +217,7 @@ span {display: block;}
 .title {
     margin-top: 120px;
     width: 100%;
-    background-color: black;
+    background-color: #121212;
     color: #ff5a00; font-size: 64px;
 }
 .title h1 {
@@ -248,7 +248,7 @@ span {display: block;}
     object-fit: cover;
 }
 .aside_bg {
-    background: #000;
+    background: #121212;
   }
   .aside_bg img {
     mix-blend-mode: luminosity;
@@ -325,7 +325,7 @@ main {
 .sec2 .button a {
     width: 165px; height: 60px; line-height: 28px;
     text-decoration: none; 
-    background-color: #000; color: #fff;
+    background-color: #121212; color: #fff;
     border: 1px solid #fff;
     display: block;
     padding: 15px 35px;
@@ -433,7 +433,7 @@ h2 .arrow:hover a {
 /* (((lowerPart))) ----------------------------------------------------- */
 .lowerPart {
     width: 100%; 
-    background-color: #000;
+    background-color: #121212;
     clear: both;
     padding: 120px 0 200px 0;
 }
@@ -456,49 +456,34 @@ footer {
   }
   
   .footer_inner{
-    width: 100%;
-    max-width: 1344px;
+    /* width: 100%; */
+    width: 1344px;
     height: 761px;
     margin: 0 auto;
-    padding: 0 48px;
+    /* padding: 0 48px; */
   }
-  
-  .location{
-    width: 1344px;
-    height: 56px;
-    padding: 16px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    box-sizing: border-box;
-    /* position: relative; */
-    
-  }
+/*   
   .home {
     margin: 0;
     display: block;
   }
-  
   .location .home > li {
     line-height: 24px;
     margin: 0;
     float: left;
-  
   }
-  
   .location .home li a {
     text-decoration: none;
     color: #fff;
   }
-  
   .location .home li a:hover {
     text-decoration: underline;
-  
   }
-  
   .location .home img {
     margin: 0 4px;
     line-height: 24px;
   }
-  
+*/
   .sitemap {
     width: 100%; height: 452px;
     box-sizing: border-box;
@@ -649,11 +634,14 @@ footer {
     background-color: rgba(255, 255, 255, 0.62);
     margin: 4px;
     margin-left: 6px;
-  }   
-  
+  }
   
   .footlink_list, .footer_box, .copyright {
     font-family: "CJONLYONENEW";
     font-size: 12px;
     font-weight: 400;
+  }
+
+  .foot_list span {
+    display: inline;
   }
