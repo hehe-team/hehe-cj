@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- reset -->
+  <link rel="stylesheet" href="./css/reset.css">
 <link rel="shortcut icon" href="./images/Favicon.ico">
 <link rel="stylesheet" href="./css/fonts_h.css">
 <link rel="stylesheet" href="./Css/1stlook.css">
@@ -16,27 +18,65 @@
 <body>
     <header>
         <div class="inner">
-            <div class="fix_menu">
-                <ul class="fix_link">
-                    <li>TVING <img src="./images/arrow2.png" alt="arrow"></li>
-                    <li>STUDIO DRAGON <img src="./images/arrow2.png" alt="arrow"></li>
-                    <li>CJ ONSTYLE <img src="./images/arrow2.png" alt="arrow"></li>
-                    <li><span class="material-symbols-outlined">language</span> KO<span class="material-symbols-outlined icon-link">keyboard_arrow_down</span></li>
-                </ul>
+          <div class="fix_menu">
+            <ul class="fix_link">
+              <li><a href="https://www.tving.com/onboarding">TVING<span class="material-symbols-outlined icon-link">north_east</span></a></li>
+              <li><a href="http://www.studiodragon.net/front/kr/main/main;jsessionid=0AA0ABD945141260BF504E1185ADBA53/">STUDIO DRAGON<span class="material-symbols-outlined icon-link">north_east</span></a></li>
+              <li><a href="https://company.cjonstyle.com/">CJ ONSTYLE<span class="material-symbols-outlined icon-link">north_east</span></a></li>
+              <li><span class="material-symbols-outlined icon-link">language</span>KO<span class="material-symbols-outlined icon-link">keyboard_arrow_down</span></li>
+          </ul>
+          </div>
+          <div class="top_header">
+            <div class="logo_img">
+              <a href="./index.html"><img src="./images/cj_enm_logo.svg" alt="logo"></a>
             </div>
-            <div class="top_header">
-                <div class="logo_img"><img src="./images/cj_enm_logo.svg" alt="logo">
+    
+            <ul class="gnb_itmes">
+              <li><a href="#">#1stLook</a></li>
+              <li><!-- a 링크 넣으면 체크박스 안눌림 -->
+                <input type="checkbox" id="check-a" name="check-a">
+                <label for="check-a">About Us<span class="material-symbols-outlined icon-menu">keyboard_arrow_down</span></label>
+                <div class="menu-drop drop-about">
+                  <h2>About Us</h2>
+                  <div class="drop-column">
+                    <h3>Our Story</h3>
+                    <ul>
+                      <li><a href="#">Who We Are</a></li>
+                      <li><a href="#">Visionary</a></li>
+                      <li><a href="#">Culture</a></li>
+                      <li><a href="#">History</a></li>
+                    </ul>
+                  </div>
+                  <div class="drop-column">
+                    <h3>Business</h3>
+                    <ul class="drop-col-a">
+                      <li><a href="#">TV Show</a></li>
+                      <li><a href="#">Film</a></li>
+                      <li><a href="#">Music</a></li>
+                      <li><a href="#">Digital Business</a></li>
+                      <li><a href="#">Performing Arts</a></li>
+                      <li><a href="#">Animation</a></li>
+                    </ul>
+                  </div>
                 </div>
-
-                <ul class="gnb_itmes">
-                    <li>#1stLook</li>
-                    <li>About Us <img src="./images/arrow3.png" alt="arrow"></li>
-                    <li>Featured Contents</li>
-                    <li>Newsroom</li>
-                    <li>Support <img src="./images/arrow3.png" alt="arrow"></li>
-                </ul>
-            </div>
+              </li>
+              <li><a href="./featured-contents.html">Featured Contents</a></li>
+              <li><a href="./newroom.html">Newsroom</a></li>
+              <li>
+                <input type="checkbox" id="check-s" name="check-s">
+                <label for="check-s">Support<span class="material-symbols-outlined icon-menu">keyboard_arrow_down</span></label><div class="menu-drop drop-spt">
+                  <h2>Support</h2>
+                  <ul id="drop-spt">
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
+    </header>
     <section class="head">
         <h1>#1stLook</h1>
         <span class="headtxt1">다음 호 보기 </span>
