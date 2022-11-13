@@ -179,7 +179,10 @@ header::after {
     float: left;
     box-sizing: border-box;
 }
-
+.gnb_itmes .material-symbols-outlined {
+    font-size: 16px;
+    vertical-align: middle;
+}
 .gnb_itmes > li {
     position: relative;
     float: left;
@@ -190,6 +193,90 @@ header::after {
     text-decoration: none;
     color: #fff;
 }
+
+/* 소메뉴 추가 */
+
+
+/* menu-drop */
+.gnb_itmes li .menu-drop {
+    font-family: 'CircularStd';
+    font-weight: 700;
+    width: 1344px; 
+    padding: 40px 48px;
+    display: block;
+    background-color: #181818;
+    
+    position: absolute; /* 위치 고정 */
+    z-index: 500;
+    display: none;
+  }
+  .gnb_itmes li .drop-about { 
+    top: 48px; left: -280px;
+  }
+  .gnb_itmes li .drop-spt { 
+    top: 48px; left: -670px;
+  }
+  
+  /* 소메뉴 숨김처리 */
+  .gnb_itmes li input {
+    display: none;
+  }
+  .gnb_itmes li label:hover {
+      cursor: pointer;
+  }
+  input[type=checkbox]:checked ~ .menu-drop {
+    /* visibility: hidden;
+    opacity: 0;
+    display: none; */
+    display: block;
+  }
+  
+  .gnb_itmes li .menu-drop .drop-column {
+    float: left;
+    width: 270px;
+  }
+  
+  .gnb_itmes li .menu-drop h2 {
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 26px;
+  }
+  .gnb_itmes li .menu-drop h3 {
+    font-size: 20px;
+  }
+  .gnb_itmes li .menu-drop ul {
+    margin-top: 32px;
+  }
+  .gnb_itmes li .menu-drop ul li {
+    margin-top: 12px;
+  }
+  .gnb_itmes li .menu-drop ul li a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+  }
+  /* about us - Business */
+  .gnb_itmes li .menu-drop .drop-column .drop-col-a {
+    margin-top: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 160px;
+  }
+  /* support */
+  .gnb_itmes li .menu-drop #drop-spt {
+    display: flex;
+  }
+  .gnb_itmes li .menu-drop #drop-spt li {
+    width: 270px;
+  }
+  .gnb_itmes li .menu-drop #drop-spt li a {
+    font-size: 20px;
+  }
+  
+
+
 
 .top_title {
     background-color: #121212;
@@ -216,8 +303,8 @@ header::after {
     margin: 120px 0 200px;
     width: 100%;
    height: 1410px;
-   
 }
+
 /* main  */
 
 
@@ -231,6 +318,8 @@ header::after {
 .con_title {
     padding: 0;
     box-sizing: border-box;
+    position: relative;
+    z-index: -1;
 }
 
 .con_title .title_box {
@@ -276,12 +365,16 @@ header::after {
     /* height: 1410px; */
     padding: 0 48px 200px;
     box-sizing: border-box;
+    /* position: relative;
+    z-index: 2; */
 }
 
 #contents1 {
     padding: 80px 0 200px;
     /* height: 1450px; */
     box-sizing: border-box;
+    /* position: relative;
+    z-index: 3; */
 }
 
 .con_card {
