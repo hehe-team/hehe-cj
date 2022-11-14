@@ -95,6 +95,9 @@ ul.Editor li{
     margin-bottom: 40px;
     display: flex;
 }
+ul.Editor li dl {
+  margin: auto 0;
+}
 ul.Editor li dd{
     margin: 0 10px;
     font-size: 15px;
