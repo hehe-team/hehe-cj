@@ -33,10 +33,10 @@ body {
     width: 100vw;
     background-color: #121212;
     color: #fff;
-    position: sticky;
-    top: 0;
+    /* position: sticky; */
+    /* top: 0;
     left: 0;
-    right: 0;
+    right: 0; */
     z-index: 999999;
   } 
   
@@ -215,7 +215,7 @@ h2 {font-size: 46px; font-weight: 700;}
 span {display: block;}
 /* (((title)))----------------------------------- */
 .title {
-    margin-top: 120px;
+    /* margin-top: 120px; */
     width: 100%;
     background-color: #121212;
     color: #ff5a00; font-size: 64px;
